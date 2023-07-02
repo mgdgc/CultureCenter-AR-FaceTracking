@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import ARKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        if !ARFaceTrackingConfiguration.isSupported {
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now()) {
+                
+                let alert = UIAlertController(title: "Unsupported Device", message: "This app requires TrueDepth Camera with iOS 11.0+", preferredStyle: .alert)
+                
+                alert.addAction(UIAlertAction(title: "Close", style: .default) { action in
+                    exit(0)
+                })
+                
+                self.window?.rootViewController?.present(alert, animated: true)
+            }
+        }
+        
         return true
     }
 

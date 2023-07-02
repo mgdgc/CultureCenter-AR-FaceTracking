@@ -13,6 +13,7 @@
 		79AF64A42A4F3026004E9232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AF64A22A4F3026004E9232 /* Main.storyboard */; };
 		79AF64A62A4F302A004E9232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AF64A52A4F302A004E9232 /* Assets.xcassets */; };
 		79AF64A92A4F302A004E9232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AF64A72A4F302A004E9232 /* LaunchScreen.storyboard */; };
+		79AF64B02A516218004E9232 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 79AF64AF2A516218004E9232 /* Models.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		79AF64A32A4F3026004E9232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		79AF64A52A4F302A004E9232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79AF64A82A4F302A004E9232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79AF64AF2A516218004E9232 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		79AF649B2A4F3026004E9232 /* CC_FaceTracking */ = {
 			isa = PBXGroup;
 			children = (
+				79AF64AF2A516218004E9232 /* Models.scnassets */,
 				79AF649C2A4F3026004E9232 /* AppDelegate.swift */,
 				79AF649E2A4F3026004E9232 /* art.scnassets */,
 				79AF64A02A4F3026004E9232 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 				79AF649F2A4F3026004E9232 /* art.scnassets in Resources */,
 				79AF64A92A4F302A004E9232 /* LaunchScreen.storyboard in Resources */,
 				79AF64A62A4F302A004E9232 /* Assets.xcassets in Resources */,
+				79AF64B02A516218004E9232 /* Models.scnassets in Resources */,
 				79AF64A42A4F3026004E9232 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
